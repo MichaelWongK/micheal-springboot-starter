@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: micheal-example-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://micheal.wang:3306/test?serverTimezone=UTC
+    username: root
+    password: mingkai13
+    type: com.alibaba.druid.pool.DruidDataSource
+micheal:
+  redis:
+    lock:
+      server:
+        host: micheal.wang
+        port: 26379
+        data-base: 1

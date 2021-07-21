@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>micheal-container-application</artifactId>
+        <groupId>com.micheal.application</groupId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>micheal-application-starter</artifactId>
+    <name>${project.artifactId}</name>
+    <description>micheal redis starter</description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>micheal.wang</name>
+            <email>wangmk13@163.com</email>
+            <organization>open</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <maven.repackage.skip>true</maven.repackage.skip>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.micheal.application</groupId>
+            <artifactId>micheal-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.micheal.application</groupId>
+            <artifactId>micheal-application-autoconfigure</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.micheal.application</groupId>-->
+<!--            <artifactId>micheal-application-common</artifactId>-->
+<!--        </dependency>-->
+    </dependencies>
+
+
+</project>
